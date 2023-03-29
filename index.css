@@ -1,0 +1,47 @@
+* {
+  background: url(resources/table.jpeg) no-repeat fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+#message-el {
+  font-size: 4em;
+  font-style: italic;
+  color: white;
+  font-weight: 1000;
+  font-family: 'Dancing Script', cursive;
+}
+
+h1 {
+  color: yellow;
+  font-size: 7em;
+  font-family: 'Bebas Neue', cursive;
+  border-bottom: 1px solid black;
+}
+
+p {
+  color: white;
+  font-size: 3em;
+  font-family: 'Bebas Neue', cursive;
+}
+
+button {
+  width: 20%;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 2em;
+  background: goldenrod;
+  font-family: 'Bebas Neue', cursive;
+  cursor: pointer;
+  word-wrap: break-word;
+  margin: 1px auto;
+  color: darkgreen;
+  padding: 0.1em 0.1em;
+  border: none;
+}
+button:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
